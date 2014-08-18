@@ -27,7 +27,7 @@
   "homepage": "http://megastef.github.io/winston-crate/",
   "dependencies": {
     "node-crate": ">=1.0.7",
-    "winston": ">0.7.0",
+    "winston": ">0.7.0"
   },
   "devDependencies": {
     "winston": ">0.7.0",
