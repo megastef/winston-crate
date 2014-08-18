@@ -1,6 +1,6 @@
 {
   "name": "winston-crate",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Winston transport logger for CRATE (crate.io)",
   "main": "lib/index.js",
   "scripts": {

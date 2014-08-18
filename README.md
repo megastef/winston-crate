@@ -10,7 +10,7 @@ For usage please check examples/sample.js.
 
 ```
 var winston = require('winston');
-var CrateTransport = require('winsoton-crate');
+var CrateTransport = require('winston-crate');
 var logger = new (winston.Logger)({
 	transports: [
 	  new (winston.transports.Console)(),
