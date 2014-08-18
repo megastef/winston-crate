@@ -1,6 +1,6 @@
 {
   "name": "winston-crate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Winston transport logger for CRATE (crate.io)",
   "main": "lib/index.js",
   "scripts": {
@@ -26,7 +26,8 @@
   },
   "homepage": "http://megastef.github.io/winston-crate/",
   "dependencies": {
-    "node-crate": ">=1.0.7"
+    "node-crate": ">=1.0.7",
+    "winston": ">0.7.0",
   },
   "devDependencies": {
     "winston": ">0.7.0",
