@@ -1,0 +1,37 @@
+{
+  "name": "winston-crate",
+  "version": "0.0.1",
+  "description": "Winston transport logger for CRATE (crate.io)",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "lab -m 6000",
+    "bundle": "browserify -r ./lib/index.js:winston-crate > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/megastef/winston-crate.git"
+  },
+  "keywords": [
+    "CRATE",
+    "crate.io",
+    "sql",
+    "logger",
+    "winston"
+  ],
+  "author": "Stefan Thies",
+  "contributors": [],
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/megastef/winston-crate/issues"
+  },
+  "homepage": "http://megastef.github.io/winston-crate/",
+  "dependencies": {
+    "node-crate": ">=1.0.7"
+  },
+  "devDependencies": {
+    "winston": ">0.7.0",
+    "lab": "~3.2.3",
+    "lab-lint": "0.0.3",
+    "browserify": "~5.9.1"
+  }
+}
