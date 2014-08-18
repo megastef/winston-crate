@@ -1,7 +1,8 @@
-This is an open-source transport module for winston logger [flatiron/winston](https://github.com/flatiron/winston), logging into the easy scalable data store from crate.io.
+This is an open-source transport module for winston logger [flatiron/winston](https://github.com/flatiron/winston), logging into the easy scalable data store from crate.io. 
 
-If you don't know it:
+
 [Crate Data](http://crate.io) - "Easy to scale real time SQL data store" 
+
 Please note: Crate is a trademark of Crate Technology Gmbh, registered in the E.U. and in other countries.
 
 
