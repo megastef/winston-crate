@@ -20,7 +20,7 @@ var logger = new (winston.Logger)({
 logger.info ("Info message logged to crate", {metadata: "test-log", count:1})
 ```
 
-It automatically crates a table called "log". 
+It creates automatically a table called "log". 
 
 
 ## License
