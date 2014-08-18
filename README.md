@@ -9,8 +9,8 @@ Please note: Crate is a trademark of Crate Technology Gmbh, registered in the E.
 For usage please check examples/sample.js.
 
 ```
-var winston = require( 'winston' );
-var CrateTransport = require( 'winsoton-crate' );
+var winston = require('winston');
+var CrateTransport = require('winsoton-crate');
 var logger = new (winston.Logger)({
 	transports: [
 	  new (winston.transports.Console)(),
