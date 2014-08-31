@@ -8,8 +8,11 @@ try {
 	    ]
 	    });
 	for (var i=0; i<1000; i++) {
-		 logger.info (  "Test " + i, {x:i}, function (err, res){
-		 	if (err)  console.log ("Error " + err)
+		 setImmediate (function () {
+		 	logger.info (  "Test " + i, {x:i}, function (err, res){
+		 		if (err)  
+		 			console.log ("Error " + err)
+		 	})
 		 })
 	} 
 		
